@@ -46,6 +46,7 @@ df.isnull().sum()
 ```
 
 DATA_SET.CSV
+DATA
 ```
 import pandas as pd
 df=pd.read_csv("/Data_set.csv")
@@ -125,6 +126,7 @@ df.info()
 df.isnull().sum()
 ```
 ![image](https://github.com/Keerthanasampathkumar/ODD2023-Datascience-Ex01/assets/119477890/754450c7-605b-4821-8af2-f4df9efe9c41)
+
 FOR DATA_SET:
 DATA
 ```
