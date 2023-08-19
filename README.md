@@ -20,7 +20,8 @@ Save the Clean data to the file
 
 # CODE
 LOAN_DATA_CSV
-```import pandas as pd
+```
+import pandas as pd
 df=pd.read_csv("/Loan_data.csv")
 print(df)
 df.head(10)
