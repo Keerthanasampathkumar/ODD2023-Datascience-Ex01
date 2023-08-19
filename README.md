@@ -121,6 +121,24 @@ NON NULL AFTER
 df.info()
 ```
 ![image](https://github.com/Keerthanasampathkumar/ODD2023-Datascience-Ex01/assets/119477890/4ca7de59-09dc-44c8-9c33-f9f378daee2d)
+```
+df.isnull().sum()
+```
+![image](https://github.com/Keerthanasampathkumar/ODD2023-Datascience-Ex01/assets/119477890/754450c7-605b-4821-8af2-f4df9efe9c41)
+FOR DATA_SET:
+DATA
+```
+import pandas as pd
+df=pd.read_csv("/Data_set.csv")
+print(df)
+df.head(10)
+```
+![image](https://github.com/Keerthanasampathkumar/ODD2023-Datascience-Ex01/assets/119477890/524557a5-1de0-4a21-980d-4d2cc11f95df)
+NON NULL BEFORE
+```
+df.info()
+```
+![image](https://github.com/Keerthanasampathkumar/ODD2023-Datascience-Ex01/assets/119477890/0478f652-8844-4252-92cb-b7e22f224961)
 
 ```
 df.isnull()
